@@ -27,13 +27,14 @@
       <h2>Entre em Contato</h2>
       <form id="contact-form" action="http://localhost:3000" method="POST">
         <label for="name">Nome:</label>
-        <input type="text" name="name" placeholder="Nome"><br>
-        
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+
         <label for="email">E-mail:</label>
-        <input type="email" name="email" placeholder="Email"><br>
-        
+        <input type="email" id="email" name="email" required>
+
         <label for="phone">Telefone:</label>
-        <input type="tel" name="contact" placeholder="Contato"><br>
+        <input type="tel" id="phone" name="phone" required>
         
         <button type="submit">Enviar</button>
       </form>
